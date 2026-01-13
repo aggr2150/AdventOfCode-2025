@@ -19,7 +19,6 @@ public class Day4 {
         }
         Arrays.stream(sheet).forEach(row -> {
             Arrays.stream(row).forEach(val -> {if(val < 4) {
-                System.out.println(val);
                 ans.getAndIncrement();
             }});
         });
