@@ -1,11 +1,8 @@
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.util.Scanner;
 
 public class Day1 {
     public static void main(String[] args) throws FileNotFoundException {
-        String[] list = InputUtils.getInput("Day1");
+        String[] list = InputUtils.getInputLines("Day1");
         int key = 50;
         int ans = 0;
         for (String val : list) {
